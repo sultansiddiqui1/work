@@ -1,0 +1,44 @@
+.Feasibility {
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+.Feasibility_body {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.Feasibility_titlesection {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+.Feasability_whiteborder,
+.Feasability_whiteborder img {
+  margin-top: 5%;
+}
+.Feasibility_titlesection_text {
+  font-size: 36px;
+  line-height: 140%;
+  margin-top: 8%;
+  margin-left: -35%;
+}
+.Feasibility_paragraphsection {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 26px;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+}
+.Feasibility_cardsection {
+  display: flex;
+  justify-content: space-between;
+}
+.Feasibility_card1 {
+  width: 303px;
+  height: 366px;
+  border-radius: 85px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 5%;
+}

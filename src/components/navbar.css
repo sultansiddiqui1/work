@@ -1,0 +1,22 @@
+.navigation {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.navul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.navbtn {
+  background: linear-gradient(256.66deg, #183078 32.65%, #143f93 71.38%);
+  border-radius: 25px;
+  color: white;
+  width: 234px;
+  height: 53px;
+}
+li {
+  text-decoration: none;
+  color:white;
+  list-style-type: none;
+ 
+}

@@ -1,0 +1,170 @@
+.firstviewport{
+  height:100vh
+}
+
+
+.centralbody {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+ 
+}
+
+.leftcard {
+  width: 30%;
+  height: auto;
+
+  margin-right: 5%;
+  margin-top: 100px;
+}
+.rightcard {
+  width: 30%;
+  margin-left: 5%;
+  
+
+}
+.box{
+  transition-duration: 1s;
+}
+.box:hover {
+  transform: scale(1.1) perspective(1px);
+  background-color:#404040;
+}
+.hidden{
+  visibility: hidden;
+  color:white;
+  text-align: center;
+}
+.box:hover .hidden{
+  visibility: visible;
+}
+.box:hover img{
+  transform:scale(1.12);
+
+}
+.textpart {
+  width: 469px;
+  height: 134px;
+  top: 524px;
+  margin-top:70px;
+}
+.text {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 67.2px;
+}
+.text1 {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 67.2px;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.btnintro {
+  width: 323px;
+  height: 63px;
+  border: 1px solid #2661d1;
+  border-radius: 25px;
+  background-color: #080812;
+  color: white;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  line-height: 63px;
+  vertical-align: middle;
+  font-size: 20px;
+  transition-duration: 1s;
+}
+.btnintro:hover {
+  background-color: #2661d1;
+  transform: scale(1.1) perspective(1px);
+}
+
+.box {
+  width: 510px;
+  height: 600px;
+
+  border-radius: 85px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.boximage {
+  height: 270px;
+  font-size: 28px;
+  margin-top: 35px;
+}
+.boximage img {
+  height: 260px;
+  transition-duration: 1s;
+  
+
+}
+
+
+  
+
+
+
+.boxtitle {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-top:5px;
+}
+.boxicons {
+  display: flex;
+  justify-content: space-around;
+
+  height: 80px;
+  margin-top: 30px;
+}
+.seperatoricon {
+  line-height: 80px;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+.icon2 img {
+  margin-top: 10px;
+  margin-bottom:15px;
+}
+.icon3 img {
+  margin-top: 10px;
+}
+.image {
+  height: auto;
+  background-repeat: no-repeat;
+}
+.image img {
+  width: 100%;
+}
+.hidden{
+  visibility: hidden;
+  color:white;
+  text-align:center;
+}
+.box:hover .hidden{
+  visibility: visible;
+}
+.hidden-button{
+  margin-top:10%;
+  margin-bottom:25px;
+  color:white;
+  border:2px solid  #183078 ;
+  background-color:#404040;
+  width:35%;
+  border-radius:25px;
+  height:35px;
+
+
+}
+
+.background-blue{
+  background:linear-gradient(180deg, #020D5F 0%, #0D111D 73.44%, #0F1219 100%);
+  margin-top:-1%;
+  height:500px;
+  z-index: -1;
+
+}

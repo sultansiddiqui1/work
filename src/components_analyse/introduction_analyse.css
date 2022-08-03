@@ -1,0 +1,35 @@
+.analyse_first_viewport {
+  width: 100%;
+  height: 100vh;
+}
+.blue_bremen_bg,
+.blue_bremen_bg img {
+  width: 100%;
+}
+.blue_bremen_bg {
+  margin-top: -2%;
+}
+.blue_design_block {
+  background: linear-gradient(180deg, #00076a 0%, #08091b 48.96%, #12151d 100%);
+  height: 1037px;
+  margin-top: -5px;
+}
+.analyse_introparagraph {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: -50%;
+}
+.intro_paragraph_title {
+  font-size: 36px;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.introparagraph_maintext {
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  justify-content: flex-start;
+}

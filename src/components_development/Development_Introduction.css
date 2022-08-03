@@ -1,0 +1,124 @@
+.development_firstviewheight {
+  width: 100%;
+  height: 100vh;
+}
+.introgreenpic {
+  width: 100%;
+  margin-top: -2%;
+}
+.introgreenpic img {
+  width: 100%;
+}
+.greenblock {
+  background: linear-gradient(
+    180deg,
+    #440206 0%,
+    #150c0d 37.83%,
+    #12151d 76.2%
+  );
+  width: 100%;
+  height: 517px;
+  margin-top: -5px;
+  z-index: -5;
+}
+.textsection_golive {
+  margin-top: -26%;
+}
+.golive_maintitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 300px;
+  color: white;
+  font-size: 48px;
+  line-height: 67.2px;
+}
+.golive_firstparagraph {
+  display: flex;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  width: 60%;
+  font-weight: 300px;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.secondviewheight {
+  height: 100vh;
+}
+.secondviewheight {
+  width: 60%;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  height: auto;
+}
+.secondviewheight_maintitlesection {
+  display: flex;
+  justify-content: flex-start;
+}
+.secondviewheight_mainheader {
+  font-size: 36px;
+  line-height: 50.4px;
+  margin-left: -45%;
+  margin-top: 5px;
+}
+.secondviewheight_para2 {
+  font-size: 24px;
+  line-height: 140%;
+  margin-top: 25px;
+}
+.our_projects {
+  width: 110%;
+
+  height: auto;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 25px;
+}
+.our_projects_title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 36px;
+  line-height: 140%;
+  margin-left: 5%;
+}
+.ourprojects_card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.ourprojects_card1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 85px;
+  width: 320px;
+  height: 380px;
+}
+.card1_image {
+  width: auto;
+  height: auto;
+}
+.card1_image img {
+  height: 210.16px;
+  width: 255.02px;
+}
+.card1_icon_section {
+  display: flex;
+  justify-content: space-around;
+}
+.card1_iconsection_icon2,
+.card1_iconsection_icon4 {
+  margin-top: 10%;
+}
+.card1_iconsection_icon3,
+.card1_iconsection_icon5 {
+  margin-top: 5%;
+}
+.card1_iconsection_icon1 {
+  margin-left: 10px;
+}
+.card1_iconsection_icon5 {
+  margin-right: 10px;
+}

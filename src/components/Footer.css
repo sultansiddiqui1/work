@@ -1,0 +1,121 @@
+.newssection {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.newscards {
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+    transition-duration: 1.5s;
+}
+.card:hover {
+  transform: scale(1.1) perspective(1px);
+  background-color:#505050;
+}
+
+.footerbody {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.leftbody {
+  width: 30%;
+
+  margin-left: 5%;
+}
+.bodyright {
+  width: 60%;
+  margin-left: 10%;
+}
+.footericon {
+  display: flex;
+  justify-content: flex-start;
+}
+.footertext {
+  color: white;
+  width: 70%;
+
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 10%;
+}
+.instagraminner {
+  margin-left: -48%;
+  padding-bottom: 15%;
+}
+.contacttitle {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+}
+.upperright {
+  display: flex;
+  justify-content: space-around;
+}
+.lowerright {
+  display: flex;
+}
+.line1 {
+  display: flex;
+}
+.lowercolumn1 {
+  margin-left: 5%;
+}
+.lowercolumn2 {
+  margin-left: 15%;
+}
+.upperright p {
+  font-weight: 300px;
+  size: 16px;
+}
+.newscard {
+  display: flex;
+  justify-content: space-between;
+}
+.headerNews {
+  font-weight: 400px;
+  font-size: 36px;
+  display: flex;
+  justify-content: flex-start;
+}
+.card {
+  width: 317px;
+  height: 380px;
+  border-radius: 35px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.macbookicon {
+  width: 258px;
+}
+.btnfooter {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid white;
+  width: 215px;
+  height:39px;
+  margin-left: 10%;
+  margin-top:5px;
+  margin-bottom:5px;
+  border-radius: 25px;
+
+}
+.card img{
+  height:208px;
+  
+}

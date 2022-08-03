@@ -1,0 +1,45 @@
+.requirement_section {
+  margin-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(262.31deg, #1c4592 0%, #09317b 100%);
+  color: white;
+}
+.requirement_section_mainbody {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.requirement_section_headersection {
+  display: flex;
+  justify-content: flex-start;
+}
+.requirements_section_whiteborder img {
+  margin-top: 5%;
+}
+.requirements_section_titletext {
+  margin-top: 3%;
+  margin-left: -35%;
+  font-size: 36px;
+  line-height: 140%;
+}
+.requirements_section_paragraphsection {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 26px;
+  line-height: 140%;
+}
+.Requirements_cardsection {
+  display: flex;
+  justify-content: space-around;
+}
+.requirements_card1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 298px;
+  height: 366px;
+  border-radius: 85px;
+  background-color: rgba(255, 255, 255, 0.1);
+}

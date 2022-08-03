@@ -1,0 +1,238 @@
+.centralcard{
+   width:70%;
+   height:754px;
+   /* border: 5px solid white; */
+   margin-left:15%;
+   margin-right:15%;
+   border-radius:84px;
+   background-color:#0F121A;
+   color:white;
+   margin-top:-400px;
+   margin-bottom:25px;
+ 
+
+
+}
+.secondviewport{
+    height:100vh;
+}
+.header{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    font-weight: 400;
+    font-size:36px;
+    line-height: 50.4px;
+    
+}
+.header_text{
+    margin-left:-33%;
+    margin-top:5px;
+}
+.navs{
+    margin-top: 100px;
+}
+.navigation2{
+    display:flex;
+    justify-content:  space-around;
+}
+.navigation2 li{
+    text-decoration: underline;
+}
+.insidecard{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 25px;
+    
+}
+.description{
+    width:70%;
+    margin-top:100px;
+   
+    height: auto;
+    font-weight: 300;
+    font-size:20px;
+    line-height:25.2px;
+   
+    text-align: start;
+
+
+}
+.left{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      )
+}
+
+
+.imagecard{
+    width:300px;
+    height:400px;
+ 
+    background-color:rgba(255, 255, 255, 0.05); 
+    border-radius: 58px;
+    margin-left:2%;
+    margin-top:18px;
+
+}
+.mainimage{
+    margin-top:25px;
+}
+
+.textline1{
+    display:flex;
+    justify-content: center;
+}
+.texts,.line1,.line2,.line3{
+    margin-top: 25px;
+}
+.title{
+    color: #939393;
+    margin-left:5px;
+    font-size: 14px;
+}
+.btn1{
+
+   margin-top: 10%;
+}
+.btncompetencies{
+  background-color:#0F121A;
+  border:2px solid #1D50B0;
+  border-radius: 25px;
+  color: white;
+  width: 234px;
+  height: 53px;
+  transition-duration:0.2s;
+
+}
+.btncompetencies:hover{
+    background-color:#1D50B0;
+    transform: scale(1.1) perspective(1px);
+}
+
+
+.casestudies{
+    display:flex;
+    height:auto;
+    position: relative;
+    text-align:center;
+    color:white;
+}
+
+.left{
+    width:805px;
+    height: 1093px;
+    z-index:1;
+    text-align: center;
+    margin-left:0;
+    margin-right: 22%;
+    opacity: 0.3;
+    
+
+    
+
+}
+.casestudiesheader{
+font-weight:bold;
+color:white;
+z-index:5;
+opacity:1;
+
+   
+}
+/* .casestudiestext{
+    position:absolute;
+   top:8px;
+   left:16px;
+
+
+} */
+.textin{
+    opacity:1;
+}
+.right{
+    width: 30%;
+    height:925px;
+    overflow-x: hidden;
+    overflow-y:auto;
+
+
+
+}
+.right::-webkit-scrollbar {
+    display: none;
+  }
+.topcard{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius:35px;
+    margin-bottom: 85px;
+}
+.topcardheader{
+    margin-top:15px;
+}
+.topcard:hover{
+    transform: scale(1.02) perspective(1px);
+}
+.bottomcard{
+    width: 100%;
+    height: 509px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius:35px;
+    margin-top: 30px;
+
+}
+.competencieshidden{
+    color:white;
+    visibility:hidden;
+    text-align:center;
+}
+.topcard:hover .competencieshidden{
+    visibility: visible;
+}
+.redbg{
+    width:100%;
+    height:387px;
+   
+    margin-bottom: 5%;
+    
+}
+.redbg img{
+    width:100%;
+    height:100%;
+}
+.competenciesicons{
+    display:flex;
+    justify-content: space-around;
+}
+.competenciesicon1{
+    margin-top:-4%;
+}
+.competenciesbutton{
+    border:2px solid #98261E;
+    border-radius:25px;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.05);
+    width:166px;
+    height:40px;
+    margin-bottom:25px;
+    margin-top:20px;
+
+
+
+}
+.competenciesbutton:hover{
+    background-color:#98261E;
+
+}
+.reddiv{
+    background:linear-gradient(180deg, #440206 0%, #150C0D 37.83%, #0F121A 76.2%);
+    height:800px;
+    z-index:-1;
+    margin-top:-5%;
+}
+
+

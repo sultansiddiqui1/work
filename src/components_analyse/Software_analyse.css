@@ -1,0 +1,49 @@
+.software_section_mainbody {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.software_section_titlesection {
+  display: flex;
+  justify-content: flex-start;
+}
+.softwaresection_blueborder {
+  margin-top: 5%;
+}
+.softwaresection_titletext {
+  font-size: 36px;
+  line-height: 140%;
+  margin-top: 5%;
+  margin-left: -35%;
+}
+.softwaresection_text {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 26px;
+  line-height: 140%;
+}
+.software_ourprojectssection {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.softwaresection_ourprojects_title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 36px;
+  line-height: 140%;
+  margin-top: 15%;
+  margin-bottom: 7%;
+}
+.softwaresection_ourprojects_cardsection{
+    display:flex;
+    justify-content: space-between;
+}
+.analyse_card1{
+    background-color:rgba(255, 255, 255, 0.1); 
+    width:303px;
+    height:366px;
+    border-radius: 85px;
+}

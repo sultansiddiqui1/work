@@ -1,0 +1,182 @@
+.aboutuscorevalues_heading {
+  display: flex;
+  justify-content: center;
+}
+.aboutuscorevalues_headertext {
+  color: white;
+  font-size: 36px;
+  margin-left: -20%;
+}
+.aboutus_centralcards {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  margin-left: 15%;
+
+  margin-top: 25px;
+  overflow-x: auto;
+  margin-bottom: 5%;
+}
+.aboutus_centralcards::-webkit-scrollbar {
+  display: none;
+}
+.innercard {
+  margin-top: 15px;
+  background: linear-gradient(227.27deg, #1c4daa 0%, #0e3275 100%);
+  border-radius: 50px;
+  min-width: 286px;
+  height: 360px;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.innercard_title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 25px;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.innercard_maintext {
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+.innercard_button {
+  margin-top: 25px;
+  border: 2px solid white;
+  color: white;
+  background: linear-gradient(227.27deg, #1c4daa 0%, #0e3275 100%);
+  border-radius: 25px;
+  width: 201px;
+  height: 39px;
+}
+.aboutus_imagescrollbar {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  height: auto;
+  overflow-x: auto;
+}
+.aboutus_imagescrollbar::-webkit-scrollbar {
+  display: none;
+}
+.aboutus_imagecard img {
+  min-width: 431px;
+  height: 530px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.career_in_getcoding {
+  background: linear-gradient(236.66deg, #153f8e 30.16%, #0d2f70 79.06%);
+  width: 100%;
+  height: 288px;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+.carrer_in_getcoding_title {
+  font-size: 36px;
+  line-height: 140%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.carrer_ingetcoding_text {
+  width: 60%;
+  font-size: 18px;
+  line-height: 140%;
+  margin-left: 20%;
+}
+.carrer_ingetcoding_button {
+  width: 126px;
+  height: 28px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  background: linear-gradient(236.66deg, #153f8e 30.16%, #0d2f70 79.06%);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.aboutus_visionsection {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.visionsection {
+  border: 2px solid white;
+  width: 30%;
+  height: auto;
+  margin-right: 5%;
+}
+.missionsection {
+  border: 2px solid pink;
+  width: 30%;
+  height: 503px;
+  margin-left: 5%;
+}
+.visionsection_title {
+  display: flex;
+  justify-content: center;
+}
+.visionsection_bluetick img {
+  width: 330px;
+}
+.aboutus_visionsection_title {
+  margin-left: -50%;
+  margin-top: 4px;
+  font-size: 36px;
+}
+.aboutus_ourvision_centralcard {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(230.7deg, #1d50b0 0%, #0d3072 100%);
+  color: white;
+  border-radius: 50px;
+  font-size: 36px;
+  line-height: 50.4px;
+  height: 480px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.innercard_text {
+  padding-top: 10px;
+}
+.missionsection_headingsection {
+  display: flex;
+  justify-content: center;
+}
+.missionsection_title {
+  color: #8f8f8f;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.missionsection_greyborder {
+  margin-left: -50%;
+}
+.missionsection_text {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.buttonlabel {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.missionsection_btn {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 25px;
+  /* background-color: #E5E5E5; */
+  width: 201px;
+  margin-left: 30%;
+}

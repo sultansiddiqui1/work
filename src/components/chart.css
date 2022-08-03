@@ -1,0 +1,45 @@
+.chartsectiontext {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.chartsection_header{
+  display:flex;
+  justify-content:center;
+}
+.chartsection_title{
+  margin-left:-45%;
+}
+.chartsectionmaintext {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.chartsectionbutton {
+  margin-top: 25px;
+}
+.label {
+  display: flex;
+  align-items: flex-start;
+}
+.buttonchart {
+  display: flex;
+}
+.btnchart {
+  border: 2px solid #1d50b0;
+  margin-left: 0;
+  background-color: #080812;
+  color: white;
+  width: 263px;
+  height: 54px;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+}
+.btnchart:hover {
+  background-color: #881717;
+  transform: scale(1.1) perspective(1px);
+  border: 2px solid #881717;
+}
+.canvas{
+  margin-left:25px;
+}
