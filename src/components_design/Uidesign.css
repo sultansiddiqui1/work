@@ -45,3 +45,22 @@ border-radius: 85px;
 width:303px;
 height:366px;
 }
+.uidesigncard_title{
+  margin-top:5%;
+
+}
+.uidesigncard_image img{
+  height:210px;
+  width:255px;
+}
+.uidesign_iconsection{
+  display:flex;
+  justify-content:space-around;
+
+}
+.uidesign_icon2,.uidesign_icon4{
+  margin-top:8%;
+}
+.uidesign_icon3,.uidesign_icon5{
+  margin-top:5%;
+}

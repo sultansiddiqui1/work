@@ -21,7 +21,7 @@
   font-size: 36px;
   line-height: 140%;
   margin-top: 8%;
-  margin-left: -35%;
+  margin-left: -33%;
 }
 .Feasibility_paragraphsection {
   margin-top: 5%;
@@ -41,4 +41,23 @@
   border-radius: 85px;
   background-color: rgba(255, 255, 255, 0.1);
   margin-bottom: 5%;
+}
+.Feasibility_card1_titlesection {
+  margin-top: 5%;
+}
+.feasibility_card1_image img {
+  width: 255px;
+  height: 210px;
+}
+.feasibility_card1_iconsection {
+  display: flex;
+  justify-content: space-around;
+}
+.feasibility_card1_iconsection_icon2,
+.feasibility_card1_iconsection_icon4 {
+  margin-top: 8%;
+}
+.feasibility_card1_iconsection_icon3,
+. .feasibility_card1_iconsection_icon5 {
+  margin-top: 5%;
 }

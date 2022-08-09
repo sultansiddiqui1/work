@@ -42,4 +42,9 @@
   border-radius: 85px;
   width: 298px;
   height: 366px;
+  transition-duration: 1s;
+
+}
+.card_corparatedesign:hover{
+ transform: scale(1.1) perspective(1px);
 }

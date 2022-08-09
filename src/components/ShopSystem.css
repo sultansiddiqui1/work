@@ -2,8 +2,9 @@
   width: 100%;
   height: 100vh;
   color: white;
-  background-color: #354833;
+
   color: white;
+  z-index: 0;
 }
 .shopsystem_titlesection {
   display: flex;
@@ -56,19 +57,42 @@
   border-radius: 85px;
   width: 303px;
   height: 366px;
+  z-index: 3;
 }
-
-.projects_area_card {
+.outer_areacard {
+  display: flex;
+}
+.projects_area_card_hidden {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 85px;
   width: 303px;
   height: 366px;
+  margin-left: -25%;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 0.2s ease-in-out;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.projects_area_card {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-radius: 85px;
+  width: 303px;
+  height: 366px;
+  z-index: 100;
+  opacity: 1;
+
+  /* z-index: 3;
+  opacity:1; */
 }
 
 .projectscard1_image,
 .projectscard1_image img {
-  width: 255.02px;
-  height: 210.16px;
+  max-width: 255.02px;
+  max-height: 210.16px;
 }
 .projectscard1_icon_section {
   display: flex;
@@ -89,4 +113,48 @@
 }
 .projectscard1_image img {
   margin-left: 5%;
+}
+
+/* .projects_area_card:hover {
+  transform: scale(2.2,1);
+  /* can also use:
+   transform:scaleX(1);
+   transform:scaleY(.5);
+   */
+
+.outer_card {
+  transition: 1s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 85px;
+  width: 303px;
+  height: 366px;
+  transform-origin: left;
+  z-index: 2;
+  /* visibility:hidden; */
+}
+
+.outer_card:hover {
+  transform: scale(2.2, 1);
+}
+.hidden_div {
+  /* background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 85px;
+  width: 303px;
+  height: 366px;
+  transform-origin: left;
+  margin-left: -75%;
+  visibility: hidden;
+  z-index: 1;
+  transform-origin:left; */
+}
+.projects_area_card:hover + .projects_area_card_hidden {
+  -webkit-transform: translate(3em, 0);
+  -moz-transform: translate(3em, 0);
+  -o-transform: translate(3em, 0);
+  -ms-transform: translate(3em, 0);
+  transform: translate(3em, 0);
+  visibility: visible;
+}
+.projects_area_card_hidden:hover {
+  visibility: visible;
 }

@@ -19,7 +19,7 @@
 }
 .requirements_section_titletext {
   margin-top: 3%;
-  margin-left: -35%;
+  margin-left: -33%;
   font-size: 36px;
   line-height: 140%;
 }
@@ -42,4 +42,29 @@
   height: 366px;
   border-radius: 85px;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-duration: 1s;
+}
+.requirements_card1_titlesection {
+  margin-top: 5%;
+}
+.requirements_card1_image img {
+  width: 255px;
+  height: 210px;
+}
+.requirements_card1:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1) perspective(1px);
+}
+.requirements_card1_iconsection {
+  display: flex;
+  justify-content: space-around;
+}
+.requirements_card1_iconsection_icon2,
+.requirements_card1_iconsection_icon4
+ {
+  margin-top: 8%;
+}
+.requirements_card1_iconsection_icon3,
+.requirements_card1_iconsection_icon5{
+  margin-top:5%;
 }

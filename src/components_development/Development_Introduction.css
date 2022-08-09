@@ -9,13 +9,8 @@
 .introgreenpic img {
   width: 100%;
 }
-.greenblock {
-  background: linear-gradient(
-    180deg,
-    #440206 0%,
-    #150c0d 37.83%,
-    #12151d 76.2%
-  );
+.redblock {
+  background: linear-gradient(#440206 0%, #150c0d 37.83%, #12151d 76.2%);
   width: 100%;
   height: 517px;
   margin-top: -5px;
@@ -46,6 +41,8 @@
 
 .secondviewheight {
   height: 100vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .secondviewheight {
   width: 60%;
@@ -90,11 +87,34 @@
   justify-content: space-around;
   margin-top: 25px;
 }
-.ourprojects_card1 {
+.ourprojects_card1,.ourprojects_card2 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 85px;
   width: 320px;
   height: 380px;
+  transition-duration: 1s;
+}
+.ourprojects_card3{
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius:85px;
+  width:320px;
+  height:380px;
+  transition-duration:1s;
+  
+}
+.ourprojects_card3:hover{
+  transform: scale(1.1) perspective(1px);
+}
+.ourprojects_card1:hover {
+  transform: scale(1.1) perspective(1px);
+}
+.ourprojects_card2:hover{
+  transform:scale(1.1) perspective(1px);
+}
+.card1_title2 {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 29.55px;
 }
 .card1_image {
   width: auto;

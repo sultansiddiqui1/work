@@ -37,13 +37,37 @@
   margin-top: 15%;
   margin-bottom: 7%;
 }
-.softwaresection_ourprojects_cardsection{
-    display:flex;
-    justify-content: space-between;
+.softwaresection_ourprojects_cardsection {
+  display: flex;
+  justify-content: space-between;
 }
-.analyse_card1{
-    background-color:rgba(255, 255, 255, 0.1); 
-    width:303px;
-    height:366px;
-    border-radius: 85px;
+.analyse_card1,
+.analyse_card2 {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 303px;
+  height: 366px;
+  border-radius: 85px;
+}
+.analyse_card1_title,
+.analyse_card2_title {
+  margin-top: 5%;
+}
+.analyse_card1_image img {
+  width: 255px;
+  height: 210px;
+}
+.analyse_card2_image img {
+  width: 255px;
+  height: 210px;
+}
+.analyse_card1_iconsection,
+.analyse_card2_iconsection {
+  display: flex;
+  justify-content: space-around;
+}
+.analyse_card1_iconsection_icon2,
+.analyse_card1_iconsection_icon4,
+.analyse_card2_iconsection_icon2,
+.analyse_card2_iconsection_card4 {
+  margin-top: 5%;
 }

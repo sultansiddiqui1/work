@@ -9,19 +9,29 @@ function navbar() {
         <nav>
           <ul className="navul">
             <li>
-              <img src="/navlogo.png" alt="getcodinglogo" />
+              <Link className="piclink" to="/">
+                <img src="/navlogo.png" alt="getcodinglogo" />
+              </Link>
             </li>
             <li>
-              <Link to="/Analyse"> Beratung</Link>
+              <Link className="navlink" to="/Analyse">
+                Beratung
+              </Link>
             </li>
             <li>
-              <Link to="/Design">UX/UI Design</Link>
+              <Link className="navlink" to="/Design">
+                UX/UI Design
+              </Link>
             </li>
             <li>
-              <Link to="/Development">Entwicklung</Link>
+              <Link className="navlink" to="/Development">
+                Entwicklung
+              </Link>
             </li>
             <li>
-              <Link to="/About">Über uns</Link>
+              <Link className="navlink" to="/About">
+                Über uns
+              </Link>
             </li>
             <button className="navbtn"> Kostenfreie Anfrage</button>
           </ul>

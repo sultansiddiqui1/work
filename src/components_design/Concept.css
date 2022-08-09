@@ -20,7 +20,7 @@
 .concept_titletext {
   font-size: 36px;
   line-height: 140%;
-  margin-left: -35%;
+  margin-left: -33%;
 }
 .concept_paragraph {
   margin-top: 5%;
@@ -50,4 +50,36 @@
   border-radius: 85px;
   width: 303px;
   height: 366px;
+}
+.concept_card_title {
+  font-size: 18px;
+}
+.concept_card_image img {
+  width: 255px;
+  height: 210px;
+}
+.concept_card_iconsection {
+  display: flex;
+  justify-content: space-around;
+}
+.conceptcard_iconsection_icon2,
+.conceptcard_iconsection_icon4 {
+  margin-top: 5%;
+}
+.conceptcard_iconsection_icon3,
+.conceptcard_iconsection_icon5 {
+  margin-top: 5%;
+}
+.conceptcard_iconsection_icon1 img {
+  width: 53px;
+  height: 53px;
+}
+.conceptcard_iconsection_icon3 img {
+  width: 53px;
+  height: 53px;
+}
+.conceptcard_iconsection_icon5 {
+  width: 53px;
+  height: 53px;
+  margin-right: 5%;
 }

@@ -27,8 +27,64 @@ function Concept() {
               Unsere Projekte in diesem Bereich
             </div>
             <div className="concept_cards">
-              <div className="concept_card"></div>
-              <div className="concept_card"></div>
+              <div className="concept_card">
+                <div className="concept_card_title">WillEyes Media</div>
+                <div className="concept_card_image">
+                  <img src="./macbook.png" alt="macbook pic"></img>
+                </div>
+                <div className="concept_card_iconsection">
+                  <div className="conceptcard_iconsection_icon1">
+                    <img src="./groupicon.png" alt="group icon"></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon2">
+                    <img
+                      src="./seperatoricon.png"
+                      alt="white vertical dash"
+                    ></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon3">
+                    <img src="./boxicon2.png" alt="ai icon"></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon4">
+                    <img
+                      src="./seperatoricon.png"
+                      alt="white vertical dash"
+                    ></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon5">
+                    <img src="./boxicon3.png" alt="icon 3"></img>
+                  </div>
+                </div>
+              </div>
+              <div className="concept_card">
+                <div className="concept_card_title">WillEyes Media</div>
+                <div className="concept_card_image">
+                  <img src="./macbook.png" alt="macbook pic"></img>
+                </div>
+                <div className="concept_card_iconsection">
+                  <div className="conceptcard_iconsection_icon1">
+                    <img src="./groupicon.png" alt="group icon"></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon2">
+                    <img
+                      src="./seperatoricon.png"
+                      alt="white vertical dash"
+                    ></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon3">
+                    <img src="./boxicon2.png" alt="ai icon"></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon4">
+                    <img
+                      src="./seperatoricon.png"
+                      alt="white vertical dash"
+                    ></img>
+                  </div>
+                  <div className="conceptcard_iconsection_icon5">
+                    <img src="./boxicon3.png" alt="icon 3"></img>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

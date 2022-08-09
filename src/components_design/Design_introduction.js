@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Design_introduction.css";
 
 function Design_introduction() {
+  const [title, setTitle] = useState("Media");
+  const [title2, setTitle2] = useState("Media");
+  const [title3, setTitle3] = useState("Media");
+  const handlemouseover = () => {
+    setTitle("Wedding");
+  };
+  const handlemouseover2 = () => {
+    setTitle2("Wedding");
+  };
+  const handlemouseover3 = () => {
+    setTitle3("Wedding");
+  };
+  const handlemouseoff = () => {
+    setTitle("Media");
+  };
+  const handlemouseoff2 = () => {
+    setTitle2("Media");
+  };
+  const handlemouseoff3 = () => {
+    setTitle3("Media");
+  };
+
   return (
     <>
       <div className="development">
@@ -48,8 +70,12 @@ function Design_introduction() {
               Unsere Projekte in diesem Bereich
             </div>
             <div className="ourprojects_card">
-              <div className="ourprojects_card1">
-                <div className="card1_title">WillEyes Media</div>
+              <div
+                className="ourprojects_card1"
+                onMouseOver={handlemouseover}
+                onMouseOut={handlemouseoff}
+              >
+                <div className="card1_title">WillEyes {title}</div>
                 <div className="card1_image">
                   <img src="./macbook.png" alt="macbook image" />
                 </div>
@@ -76,8 +102,12 @@ function Design_introduction() {
                 </div>
               </div>
 
-              <div className="ourprojects_card1">
-                <div className="card1_title">WillEyes Media</div>
+              <div
+                className="ourprojects_card1"
+                onMouseOver={handlemouseover2}
+                onMouseOut={handlemouseoff2}
+              >
+                <div className="card1_title">WillEyes {title2}</div>
                 <div className="card1_image">
                   <img src="./macbook.png" alt="macbook image" />
                 </div>
@@ -104,8 +134,12 @@ function Design_introduction() {
                 </div>
               </div>
 
-              <div className="ourprojects_card1">
-                <div className="card1_title">WillEyes Media</div>
+              <div
+                className="ourprojects_card1"
+                onMouseOver={handlemouseover3}
+                onMouseOut={handlemouseoff3}
+              >
+                <div className="card1_title">WillEyes {title3}</div>
                 <div className="card1_image">
                   <img src="./macbook.png" alt="macbook image" />
                 </div>

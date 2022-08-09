@@ -1,75 +1,131 @@
-import React from "react";
+import React, { useEffect, useState, createContext } from "react";
 import "./competencies.css";
 import background from "../images/backgroundimage2.png";
 
 function competencies() {
+  const wordpressprovider = createContext();
+  const [advice, setAdvice] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  const siteurl =
+    "https://api.getcoding.de/wp-json/wp/v2/homepage_content?category_slug=kernkompetenzen";
+
+  useEffect(() => {
+    fetch(siteurl)
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        console.log(data);
+        setAdvice(data);
+      });
+  });
+  // .then((response) => response.json())
+  // .then((json) => setAdvice(json));
+
+  // console.log(advice);
+
+  //   setLoading(true)
+
+  /*  async function loadposts(){
+        var response=await fetch(siteurl);
+        // if(!response.ok){
+        //   console.log("not working");
+        //   return;
+
+
+
+        // }
+        // const advice=await response.json;
+        // setAdvice(response.json);
+
+      }
+      loadposts();
+      setAdvice(response.json);
+    },[])
+    console.log(advice); */
+  // const [advice, setAdvice] = useState("");
+  // useEffect(() => {
+  //   const url =
+  //     "https://api.getcoding.de/wp-json/wp/v2/homepage_content?category_slug=kernkompetenzen";
+  //   const fetchData = async () => {
+  //     try {
+  //       console.log("entered try block");
+  //       const response = await fetch(url).then(
+  //         (result)=>{
+  //           setAdvice(result);
+  //         }
+  //       )
+  //     //   const json = await response.json();
+  //     //   console.log(json);
+  //     //   setAdvice(json);
+  //     //   console.log("advice");
+  //     } catch (error) {
+  //       console.log("error", error);
+  //       console.log("error block reached");
+  //     }
+  //    };
+  //   fetchData();
+  // }, []);
+  // console.log("here is the response" + advice);
+
   return (
     <>
-    <div className="secondviewport">
-
-   
-      <div className="centralcard">
-        <div className="header">
-          <div className="header-image">
-            <img src="./blueborder.png" alt="blue border" />
-          </div>
-          <div className="header_text">
-
-          Unsere Kernkompetenzen
-
-          </div>
-      
-
-
-
-        </div>
-
-        <div className="navs">
-          <nav>
-            <ul className="navigation2">
-              <li> Beratung & Analyse</li>
-              <li> UI & UX Design </li>
-              <li>Entwicklung</li>
-              <li> Künstliche Intelligenz</li>
-            </ul>
-          </nav>
-        </div>
-
-        <div className="insidecard">
-          <div className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            praesentium dignissimos numquam. Tenetur, repudiandae. Esse omnis
-            saepe accusamus excepturi aliquam, explicabo hic quibusdam id quas
-            accusantium nostrum voluptates quod exercitationem. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Id rem molestiae, quae
-            earum sequi quos laborum perferendis! Ipsam, quam itaque totam
-            voluptate expedita quis et saepe? Tempora quam veritatis laudantium!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            quis cupiditate, praesentium non sapiente dicta culpa cum sint.
-            Dicta illum quae suscipit vitae sit facilis porro praesentium
-            repudiandae officiis nulla.
-            <div className="btn1">
-              <button className="btncompetencies">Mehr erfahren</button>
+      <div className="secondviewport">
+        <div className="centralcard">
+          <div className="header">
+            <div className="header-image">
+              <img src="./blueborder.png" alt="blue border" />
+            </div>
+            <div className="header_text">Unsere Kernkompetenzen</div>
+            <div>
+              {/* <pre> {JSON.stringify(advice, null, 2)}  </pre> */}
+                  {advice.map((item) => (
+                <div>
+                  <h1
+                    dangerouslySetInnerHTML={{ __html: item.content.rendered }}
+                  />
+                </div>
+              ))} 
+              {/* <h1 dangerouslySetInnerHTML={{ __html: advice.content.rendered }} /> */}
             </div>
           </div>
 
-          <div className="imagecard">
-            <div className="mainimage">
-              <img src="/till.png" alt="image of Till Sappa " />
-            </div>
+          <div className="navs">
+            <nav>
+              <ul className="navigation2">
+                <li> Beratung & Analyse</li>
+                <li> UI & UX Design </li>
+                <li>Entwicklung</li>
+                <li> Künstliche Intelligenz</li>
+              </ul>
+            </nav>
+          </div>
 
-            <div className="texts">
-              <div className="textline1">
-                <div className="name">Till Sappa </div>
-
-                <div className="title"> Head of Marketing</div>
+          <div className="insidecard">
+            <div className="description">
+              <div className="btn1">
+                <button className="btncompetencies">Mehr erfahren</button>
               </div>
-              <div className="line2">till.sappa@getcoding.de</div>
-              <div className="line3">0421 245323</div>
+            </div>
+
+            <div className="imagecard">
+              <div className="mainimage">
+                <img src="/till.png" alt="image of Till Sappa " />
+              </div>
+
+              <div className="texts">
+                <div className="textline1">
+                  <div className="name">Till Sappa </div>
+
+                  <div className="title"> Head of Marketing</div>
+                </div>
+                <div className="line2">till.sappa@getcoding.de</div>
+                <div className="line3">0421 245323</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
       <div className="casestudies">
@@ -208,11 +264,8 @@ function competencies() {
 
       <div className="redbg">
         <img src="/backgroundred.png" alt="image" />
-
       </div>
-      <div className="reddiv">
-
-      </div>
+      <div className="reddiv"></div>
     </>
   );
 }

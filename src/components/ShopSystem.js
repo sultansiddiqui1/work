@@ -1,10 +1,19 @@
 import React from "react";
+import { useState } from "react";
 import "./ShopSystem.css";
 
 function ShopSystem(props) {
+  const [isHovering, setIshovering] = useState(false);
+
+  const handleMouseover = () => {
+    setIshovering(true);
+  };
+  const handleMouseOut = () => {
+    setIshovering(false);
+  };
   return (
     <>
-      <div {...props}className="shopsystem">
+      <div {...props} className="shopsystem">
         <div className="shopsystem_titlesection">
           <div className="shopsystem_titlesection_border">
             <img src="./white_border.png" alt="white fancy border" />
@@ -26,32 +35,40 @@ function ShopSystem(props) {
             Unsere Projekte in diesem Bereich
           </div>
           <div className="projects_area_cards">
-            <div className="projects_area_card ">
-              <div className="projectscard1_title">WillEyes Media</div>
-              <div className="projectscard1_image">
-                <img src="./macbook.png" alt="macbook image" />
-              </div>
+            <div
+              className="outer_areacard"
+              onMouseOver={handleMouseover}
+              onMouseOut={handleMouseOut}
+            >
+              <div className="projects_area_card ">
+                <div className="projectscard1_title">WillEyes Media</div>
+                <div className="projectscard1_image">
+                  <img src="./macbook.png" alt="macbook image" />
+                </div>
 
-              <div className="projectscard1_icon_section">
-                <div className="projectscard1_iconsection_icon1">
-                  <img
-                    src="./groupicon.png"
-                    alt=" icon with three people in a group"
-                  />
-                </div>
-                <div className="projetcscard1_iconsection_icon2">
-                  <img src="./seperatoricon.png" alt="white vertical dash" />
-                </div>
-                <div className="projectscard1_iconsection_icon3">
-                  <img src="./boxicon2.png" alt=" ai head image" />
-                </div>
-                <div className="projectscard1_iconsection_icon4">
-                  <img src="./seperatoricon.png" alt="white vertical dash" />
-                </div>
-                <div className="projectscard1_iconsection_icon5">
-                  <img src="./boxicon3.png" alt="monitor icon" />
+                <div className="projectscard1_icon_section">
+                  <div className="projectscard1_iconsection_icon1">
+                    <img
+                      src="./groupicon.png"
+                      alt=" icon with three people in a group"
+                    />
+                  </div>
+                  <div className="projetcscard1_iconsection_icon2">
+                    <img src="./seperatoricon.png" alt="white vertical dash" />
+                  </div>
+                  <div className="projectscard1_iconsection_icon3">
+                    <img src="./boxicon2.png" alt=" ai head image" />
+                  </div>
+                  <div className="projectscard1_iconsection_icon4">
+                    <img src="./seperatoricon.png" alt="white vertical dash" />
+                  </div>
+                  <div className="projectscard1_iconsection_icon5">
+                    <img src="./boxicon3.png" alt="monitor icon" />
+                  </div>
                 </div>
               </div>
+              {/* //if mouseover */}
+              {isHovering && <div className="projects_area_card_hidden"></div>}
             </div>
 
             <div className="projects_area_card1">
